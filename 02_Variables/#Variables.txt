@@ -1,0 +1,4 @@
+Here we can declare variable with two ways.
+
+1 --> Single Variable Declaration.
+2 --> Multiple Variable Declaration.
