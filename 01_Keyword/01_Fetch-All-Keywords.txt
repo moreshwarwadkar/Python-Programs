@@ -1,0 +1,4 @@
+//To Fetch All The Keywords..
+
+import keyword
+keyword.kwlist
