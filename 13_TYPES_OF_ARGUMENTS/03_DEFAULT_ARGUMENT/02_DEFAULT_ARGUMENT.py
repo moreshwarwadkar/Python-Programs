@@ -1,0 +1,15 @@
+# DEFAULT ARGUMENT
+
+def sum(a=10, b=20):
+    sum = a+b
+    print(sum)
+
+sum(a=20)
+
+# OP: 40
+
+
+'''
+POSITIONAL ARGUMENT SHOULD BE THE FIRST ARGUMENT AND
+DEFAULT ARGUMENT SHOULD BE THE LAST ARGUMENT.
+'''
