@@ -1,0 +1,73 @@
+----- WEB TECH -----
+
+1) What is the differenec between == and ===?
+
+== ( Equals ) :
+- This operator is used to comapare values.
+
+=== ( Strictly Equals ) :
+- It is used to compare the values as well as datatypes of the value.
+
+
+
+
+2) What is var, let, const?
+
+- In JavaScript, var, let, and const are used for variable declaration.
+- var is function-scoped and allows re-declaration.
+- let is block-scoped and allows updates but not re-declarations.
+- const is also block-scoped but cannot be updated or re-declared.
+- Modern JavaScript prefers let and const for better control and to avoid bugs.
+
+| Feature                | var             | let       | const     |
+| ---------------------- | --------------- | --------- | --------- |
+| Scope                  | Function        | Block     | Block     |
+| Re-declare allowed?    | Yes             | No        | No        |
+| Update value?          | Yes             | Yes       | No        |
+| Hoisting               | Yes (undefined) | Yes (TDZ) | Yes (TDZ) |
+| Initialization needed? | No              | No        | **Yes**   |
+
+
+
+
+3) What is Hoisting and TDZ?
+
+- Utilizing a variable before it's declaration and initialization is called as Hoisting.
+- In case of var keyword we will get 'Undefined' as output.
+- In case of let and const keyword we will get 'Reference Error', because of TDZ ( Temporal Dead Zone ).
+- The time gap between variable declaration, initialization and utilization is called as 'Temporal Dead Zone'.
+
+
+
+
+4) ALT Attribute for img Tag?
+
+- The alt attribute provides alternative text for an image. 
+- It improves accessibility, SEO, and is shown when the image cannot load.
+- It helps search engines and screen readers understand the content of the image.
+
+
+
+
+5) CSS PROPERTY FOR BOLD?
+
+- The CSS property for bold text is font-weight. 
+- We can use font-weight: bold; or numeric values like 700 to make the text bold.
+
+
+
+
+6) What is the use of HTML? and Full Form?
+
+- HTML → HyperText Markup Language
+- HTML is the standard markup language used to create the structure of web pages.
+- It tells the browser what to display on the screen.
+
+- HTML stands for HyperText Markup Language. 
+- It is used to create the structure of webpages by defining elements like headings, paragraphs, images, and links. 
+- HTML works together with CSS for styling and JavaScript for functionality
+
+
+
+
+
