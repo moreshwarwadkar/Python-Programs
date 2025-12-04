@@ -155,3 +155,112 @@ var = lambda Args:Expression
 var(values)
 
 
+
+
+4) Types of Polymorphism?
+
+- It is a Phenomenon of making the operator or method to perform two or more functionalities.
+- Types : 
+
+i) Method Overloading
+- It is a Phenomenon of making the method to perform two or more functionalities.
+- In Python Method overloading is not supported, If we try to perfom it, it will by default acts as Method Overriding.
+
+ii) Operator Overloading
+- It is a Phenomenon of making the operator to perform two or more functionalities by invoking the magic method.
+
+
+
+
+5) Inheritance is Compile Time or Runtime?
+
+- Inheritance is a compile-time concept.
+
+
+
+
+6) What is Copy Operation?
+
+- The Process of Copying the content from one variable to another is called as Copy Operation.
+- Types: 
+
+i) General Copy/ Normal Copy :
+- It will Copy the variable space of one varible to another.
+- SYNTAX :
+
+dest_var = source_var
+
+ii) Shallow Copy :
+- It will copy the main memory layer of value space of one variable to another.
+- SYNTAX : 
+
+dest_var = source_var.copy()
+
+iii) Deep Copy : 
+- It will copy the entire content of value space of one variable to another.
+- SYNTAX :
+
+import copy
+dest_var = copy.deepcopy(source_var)
+
+
+
+
+7) What is Recursion?
+
+- The phenomenon of calling the function by itself until the termination condition becomes True.
+- SYNTAX 1 : 
+
+def FunName(args):
+          if termination_cond:
+                    return
+
+          FunName(args)
+FunName(values)
+
+- SYNTAX 2 :
+
+def FunName(args):
+          if termination_cond:
+                    return value
+
+          return FunName(args)
+print(FunName(values))
+
+
+
+
+8) Explain OOP's?
+
+- The concept which deals with class and objects are called OOPS.
+- OOPS is a Object Oriented Programming System.
+
+
+----- PROGRAMMING QUESTIONS -----
+
+1) Reverse String without using in-built Functions.
+
+s = 'Unik'
+rev = ''
+
+for i in s:
+    rev = i+rev
+print(rev)
+
+OP : kinU
+
+
+
+
+2) Find Factorial of a Number?
+
+n = 5
+fact = 1
+
+for i in range(1,n+1):
+    fact = fact*i
+print(fact)
+
+OP : 120
+
+
