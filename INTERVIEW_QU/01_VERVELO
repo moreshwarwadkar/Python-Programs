@@ -264,3 +264,15 @@ print(fact)
 OP : 120
 
 
+
+
+3) Find the Smallest element in the Array?
+
+
+a = [2,4,3,4,5,4,3,6,7,56,34,6,7,34,56,4]
+smallest = a[0]
+
+for i in range(len(a)):
+    if a[i] < smallest:
+        smallest = a[i]
+print(smallest)
