@@ -70,4 +70,62 @@
 
 
 
+7) What is DOM?
+
+- DOM means Document Object Model.
+- It is a Programming interface for a Web Document.
+- It represents HTML elements as a tree structure ( nodes ).
+- With DOM we can Add, Update and Delete elements dynamically.
+
+--> 4 Important Properties of DOM Elements :
+
+i) innerHTML :
+- Gets or Sets HTML content (Including Tags)
+
+ii) innerText :
+- Gets or Sets only the text (Ignores Tags, Respects CSS Visibility)
+
+iii) TextContent :
+- Returns the name of the HTML tag (Like div,h1 etc.)
+
+--> Ways To Access Elements :
+
+i) getElementById('id') :
+- Select an Element by it's ID.
+
+ii) getElementByClassName('class') :
+- Select an Element by it's Class.
+
+iii) querySelector('selector') :
+- Select First matching element (CSS Selector)
+
+iv) querySelectorAll('selector') :
+- Select all matching elements (NodeList)
+
+
+
+
+
+8) Difference Between Pseudo Element and Pseudo Class?
+
+- Pseudo Element : It is Used to Target a specific part of an Element.
+- Psedo Class : It is used to Target state of an Element.
+
+- Pseudo Element : Here we use :: .
+- Pseudo Class : Here we use : .
+
+- Pseudo Element : ::first-line, ::first-letter, ::before, ::after
+- Pseudo Class : :hover, :focus, :link, :active, :visited
+
+
+
+
+
+===========================================================================
+
+
+
+
+
+
 
