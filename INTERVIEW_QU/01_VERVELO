@@ -123,9 +123,35 @@ iv) querySelectorAll('selector') :
 
 ===========================================================================
 
+----- PYTHON -----
+
+1) What is Class and Object?
+
+- Class : Class is container which is used to store the properties and functionalities of real-time entity.
+- Object : It is an Instanec of or Copy of the class.
+- OOP's : The Concept which deals with class and objects are called as OOP's.
+          It is a Object Oriented Programming System.
 
 
 
 
+2) What are 4 Pillers of OOP's?
+
+- Inheritance
+- Polymorphism
+- Abstraction
+- Incapsulation
+
+
+
+
+3) What is Lambda Function?
+
+- Lambda is an anonymous function which is not having simple functions, if anf if-else concepts all those can be solved using lambda.
+
+- SYNTAX : 
+
+var = lambda Args:Expression
+var(values)
 
 
