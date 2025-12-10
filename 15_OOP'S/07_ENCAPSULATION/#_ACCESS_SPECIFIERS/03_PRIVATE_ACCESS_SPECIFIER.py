@@ -117,9 +117,9 @@ class BankAccount:
         
         amt = int(input('Withdraw Amount:'))
         
-        if self.__balance != 0:
-            self.__balance = self.__balance - amt
-            print(f'{self.__balance} Amount Withdraw Successfully')
+        if amt <= self.__balance:
+            self.__balance -= amt
+            print(f'{amt} Amount Withdrawn Successfully')
         
         else:
             
