@@ -1,6 +1,5 @@
 # SIMPLE GENERATOR:
 
-'''
 def gen():
     yield 1
     yield 2
@@ -8,7 +7,6 @@ def gen():
 
 for num in gen():  # Here we directly use Function
     print(num)
-'''
 
 '''
 OUTPUT:
@@ -35,3 +33,4 @@ OUTPUT:
 2
 3
 '''
+
