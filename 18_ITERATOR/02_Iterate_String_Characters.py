@@ -10,7 +10,7 @@ print(next(a))
 print(next(a))
 print(next(a))
 
-# Second Way : Most Prefered When we have large data.
+# Second Way : Most Preferred When we have large data.
 
 li = 'UNiK'
 a = iter(li)
