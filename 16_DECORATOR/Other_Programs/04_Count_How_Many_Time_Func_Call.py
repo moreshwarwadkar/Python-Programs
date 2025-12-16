@@ -21,3 +21,14 @@ def greet():
     
 greet()
 greet()
+
+'''
+
+OUTPUT :
+
+Hello..
+1
+Hello..
+2
+
+'''
