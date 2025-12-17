@@ -1,7 +1,6 @@
 # Wap to extract all the key value pairs from the dictionary only if the keys are of string datatype and values are integers.
 
 dict = {'a':1, 2:'b', 'c':3, 4:'d'}
-new = {}
 
 key = dict.keys()
 value = dict.values()
