@@ -1,5 +1,14 @@
 # SHALLOW COPY
 
+'''
+
+*SYNTAX :
+
+  import copy
+  destination_var = copy.copy(source_var)
+  
+'''
+
 import copy
 
 a = [1,[10,20],3]
@@ -23,3 +32,4 @@ print(b) # OP: [10, [1, 20], 3]
 - The Nested collection stored in the same address.
 - So if we modify the value from nested collection, it will affect for both variables.
 '''
+
