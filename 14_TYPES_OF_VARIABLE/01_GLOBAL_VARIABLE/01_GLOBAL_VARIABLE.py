@@ -2,7 +2,7 @@
 
 '''
 IF WE WANT TO MODIFY VARIABLE INSIDE FUNCTION, THEN
-WE USE 'global' KEYWORD.
+WE DECLARE VARIBLE WITH 'global' KEYWORD.
 '''
 
 a = 10
@@ -30,3 +30,4 @@ Modified Inside The Function: 40
 Outside The Function: 40
 Modified Inside The Function: 70
 '''
+
