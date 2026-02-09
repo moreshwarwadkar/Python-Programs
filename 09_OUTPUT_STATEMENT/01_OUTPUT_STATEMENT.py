@@ -5,12 +5,12 @@
 
 --> print(val1, val2, val3,...)
 
-This Function 2 Attribute:
+This Function have 2 Attribute:
 1) Seperator
 2) End
 '''
 
-# 1) Seperator
+# 1) Seperator ---------------------------
 
 a = 10
 b = 20
@@ -26,10 +26,11 @@ OP:
 30
 '''
 
-# 2) END
+# 2) END ---------------------------
 
 print(a, end=' ')
 print(b, end=' ')
 print(c, end=' ')
 
 # OP: 10 20 30 
+
