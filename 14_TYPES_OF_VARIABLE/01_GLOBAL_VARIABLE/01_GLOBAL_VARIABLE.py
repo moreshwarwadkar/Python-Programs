@@ -1,8 +1,7 @@
 # GLOBAL_VARIABLE
 
 '''
-IF WE WANT TO MODIFY VARIABLE INSIDE FUNCTION, THEN
-WE DECLARE VARIBLE WITH 'global' KEYWORD.
+TO Modify the global variable inside the function we need to declare the variable with keyword called as "global" before modification.
 '''
 
 a = 10
@@ -30,4 +29,5 @@ Modified Inside The Function: 40
 Outside The Function: 40
 Modified Inside The Function: 70
 '''
+
 
