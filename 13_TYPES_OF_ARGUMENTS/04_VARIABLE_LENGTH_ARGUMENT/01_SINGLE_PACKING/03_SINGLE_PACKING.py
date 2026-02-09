@@ -5,7 +5,7 @@ def show_names(*names):
         print("Hello", n)
 
 # taking input as multiple names
-user_input = input("Enter names separated by space: ").split()
+user_input = input("Enter names separated by space: ").split(',')
 show_names(*user_input)
 
 '''
@@ -28,3 +28,4 @@ uinput = input("Enter names separated by space: ").split()
 names(*uinput)
 
 # OP: ('Unik', 'Rohan', 'Rohit')
+
