@@ -17,3 +17,8 @@ def sample():
         print('Modified Inside The Function:',a)  # 60
     sum()
 sample()
+
+
+'''
+- To Modify the local vraiable inside the nested function we have to declare the variable with keyword called as "nonlocal".
+'''
